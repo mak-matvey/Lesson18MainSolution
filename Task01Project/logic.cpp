@@ -1,6 +1,6 @@
 #include "logic.h"
 
-string numberToWords(int n)
+string number_to_words(int n)
 {
 
     if (n == 0) return "zero";
@@ -46,16 +46,16 @@ string numberToWords(int n)
 
     else if (n >= 10) {
         switch (n) {
-        case 10: return result + "ten";
-        case 11: return result + "eleven";
-        case 12: return result + "twelve";
-        case 13: return result + "thirteen";
-        case 14: return result + "fourteen";
-        case 15: return result + "fifteen";
-        case 16: return result + "sixteen";
-        case 17: return result + "seventeen";
-        case 18: return result + "eighteen";
-        case 19: return result + "nineteen";
+        case 10: result + "ten";
+        case 11: result + "eleven";
+        case 12: result + "twelve";
+        case 13: result + "thirteen";
+        case 14: result + "fourteen";
+        case 15: result + "fifteen";
+        case 16: result + "sixteen";
+        case 17: result + "seventeen";
+        case 18: result + "eighteen";
+        case 19: result + "nineteen";
         }
     }
 
