@@ -3,4 +3,4 @@
 
 using namespace std;
 
-string numberToWords(int n);
+string number_to_words(int n);
